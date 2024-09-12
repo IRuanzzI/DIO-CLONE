@@ -28,3 +28,11 @@ export const InputText = styled.input`
     width: 100%;
 
 `
+
+export const ErrorText = styled.p`
+
+    color:#ff0000;
+    font-size:12px;
+    margin: 5px;
+
+`

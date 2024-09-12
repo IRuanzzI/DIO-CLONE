@@ -10,7 +10,7 @@ import{
 import {Home} from './pages/home'
 import {Login} from './pages/Login'
 import {Feed} from './pages/Feed'
-
+import { Cadastro } from './pages/Cadastro';
 function App() {
   return (
     <Router>
@@ -18,7 +18,7 @@ function App() {
           <Route path="/" element = {<Home/>} />
           <Route path="/login" element = {<Login/>} />
           <Route path="/feed" element = {<Feed/>} />
-
+          <Route path='/cadastro' element = {<Cadastro/>}/>
         </Routes>
     </Router>
   );

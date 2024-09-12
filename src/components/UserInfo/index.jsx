@@ -18,5 +18,4 @@ const UserInfo = ({nome, image, percentual}) => {
     
 }
 
-//TODO: MINUTO 21:01, VERIFICAR PORQUE O TITULO ESTÁ DESALINHADO.
 export {UserInfo}
