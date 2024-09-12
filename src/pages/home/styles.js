@@ -6,7 +6,7 @@ export const Container = styled.main`
     max-width: 80%;
     margin: 0;
     margin-top: 120px;
-
+    margin-left: 120px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
